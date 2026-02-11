@@ -113,11 +113,14 @@ print(f"Recall del modelo (Capacidad de detectar Riesgo): {recall:.2f}")
 print("\n--- FIN DE LA FASE DE MODELADO (INICIANDO ANÁLISIS ÉTICO 1.4) ---")
 print("-" * 60)
 
-# AQUÍ PEGA TU CÓDIGO EXISTENTE DE LA UNIDAD 1.4 (ANÁLISIS DE SESGO)
-# ...
+# ==============================================================================
+# UNIDAD 1.4: Análisis de Sesgo
+# Objetivo: Entrenar un modelo base y medir su éxito (Recall, Precision).
+# ==============================================================================
+
+print("\n--- INICIO UNIDAD 1.4: ANÁLISIS DE SESGO ---")
 
 # 1. Cargamos el dataset
-# Nota: el nombre del archivo  correcto (ej. 'german_credit_data_ibm.csv')
 # df = pd.read_csv('german_credit_data_ibm.csv')
 
 # 2. Inspección rápida de las primeras filas
